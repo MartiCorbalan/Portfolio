@@ -1,0 +1,37 @@
+{
+    "infoBasica":{
+        "Nom": "Martí",
+        "Cognoms": "Corbalan Cruz",
+        "Tel": "602046890",
+        "ubicacio": "Mataró, Barcelona",
+        "correu": "martilluc01@gmail.com",
+        "linkedin": "Martí Corbalan Cruz",
+        "github": "GitHub",
+        "h2": "Sobre mi !",
+        "p": "Hola, soc en Martí Corbalan i soc un apassionat de la programació web"
+    },
+    "menu":{
+        "inici": "Inici",
+        "info": "Informació personal",
+        "HSkills": "Hard Skills",
+        "SSKills": "Soft Skills",
+        "Contacte": "Contacte"
+    },
+    "Titol":{
+        "h1": "Martí Corbalan"
+    },
+    "HardSkills":{
+        "Software": "Softwate",
+        "Hardware": "Hardware",
+        "Wordpress": "Wordpress",
+        "HTML": "HTML",
+        "CSS": "CSS",
+        "REACT": "REACT",
+        "FIGMA": "FIGMA",
+        "PHP": "PHP",
+        "Tailwind": "Tailwind"
+    },
+    "SoftSkills":{
+        "TrabajoEquipo": "Treballar en equip"
+    }
+}
