@@ -1,0 +1,130 @@
+{
+  "menu": [{
+    "titulo": "Martí Corbalan",
+    "texto1": "Inicio",
+    "texto2": "Hard Skills",
+    "texto3": "Soft Skills",
+    "texto4": "Educacion",
+    "texto5": "Contacto"
+  }],
+    "flags": [
+      {
+        "src": "img/bandera.png",
+        "alt": "Bandera"
+      },
+      {
+        "src": "img/espana.png",
+        "alt": "España"
+      },
+      {
+        "src": "img/reino-unido.png",
+        "alt": "Reino Unido"
+      }
+    ],
+    "about_me": [{
+      "titulo": "Sobre mí",
+      "contenido": "Profesional capacitado para desarrollar, implementar, documentar y mantener aplicaciones informáticas multiplataforma. Entre mis cualidades transversales, destaco la seriedad, responsabilidad, proactividad, trabajo en equipo, iniciativa para afrontar nuevos retos, capacidad comunicativa y autonomía en las tareas asignadas.",
+      "contacto": "Contacto",
+      "info":{
+        "telefono": "602046890",
+        "direccion": "Mataró, Barcelona",
+        "email": "martilluc01@gmail.com",
+        "linkedin": "Martí Corbalan Cruz",
+        "github": "GitHub"
+      },
+      "idiomas": [
+        {
+        "texto": "Catalán: Nativo"
+        },
+        {
+        "texto": "Castellano: Nativo"
+        },
+        {
+        "texto": "Inglés: Intermedio"
+        }
+
+      ],
+      "cv_enlace": "pdf/CVMARTÍCORBALAN.pdf"
+    }],
+    "aptitudes_tecnicas": [{
+      "titulo": "Hard Skills",
+      "skills1": "Software",
+      "skills2": "Hardware",
+      "skills3": "Wordpress",
+      "skills4": "HTML",
+      "skills5": "CSS",
+      "skills6": "React",
+      "skills8": "PHP",
+      "skills9": "Tailwind",
+      "skills10": "Python",
+      "SoftTitol": "Soft Skills",
+      "soft1":"Trabajar en equipo",
+      "soft2":"Proactivo",
+      "soft3":"Capacidad comunicativa",
+      "soft4":"Iniciativa"
+    }],
+    "experiencia_laboral": [{
+      "titulo": "Experiencia Laboral",
+      "nombre1": "Técnico informático",
+      "lugar_fecha1": "Megastore Datasystem (2017-2018) ",
+      "descripcion1": "- Soporte tanto en hardware como en software",
+      "descripcion2":  "- Instalación, mantenimiento y reparación ",
+      "descripcion2b":  "de ordenadores e impresoras...",
+      "descripcion3":  "- Atención al cliente, helpdesk",
+      "nombre2":"Desarrollador Web",
+      "lugar_fecha2": "2017-2023",
+      "descripcion4": "- La Volta Mataró",
+      "descripcion5": "- Dea Essence ",
+      "descripcion6":  "- Saed.cat",
+      "descripcion7":  "- TecnoTrade Group",
+      "nombre3":"Extreme Micro",
+      "lugar_fecha3": "2021",
+      "descripcion8": "- Desarrollo Web",
+      "descripcion9": "- ERP Odoo",
+      "descripcion10":  "- Wordpress"
+    }],
+    "educacion": [{
+      "titulo": "Educación",
+      "experiencia1": "Grado superior de Desarrollo de aplicaciones Multiplataforma",
+      "lugar_fecha4": "2019-2021",
+      "experiencia2": "Grado medio de Sistemas microinformáticos y redes",
+      "lugar_fecha5": "2017-2019"    
+    }],
+    "carrusel":[{
+      "titulo": "Blog Cafè",
+      "subtitulo1": "Proyecto de venta de Café",
+      "lenCarrusel": "HTML",
+      "lenCarrusel2": "CSS",
+      "lenCarrusel3": "JavaScript",
+      "lenCarrusel4": "HTML",
+      "lenCarrusel5": "CSS",
+      "lenCarrusel6": "JavaScript",
+      "lenCarrusel7": "HTML",
+      "lenCarrusel8": "CSS",
+      "lenCarrusel9": "JavaScript",
+      "titulo2": "Festival de música",
+      "subtitulo2": "Proyecto de un festival de música",
+      "titulo3": "Calculadora",
+      "subtitulo3": "Proyecto de una calculadora"
+    }],
+    "contact":[{
+      "titulo": "Contacto"
+
+    }],
+    "contacto": {
+      "redes_sociales": [
+        {
+          "nombre": "Instagram",
+          "enlace": "https://www.instagram.com/"
+        },
+        {
+          "nombre": "LinkedIn",
+          "enlace": "https://www.linkedin.com/"
+        },
+        {
+          "nombre": "GitHub",
+          "enlace": "https://github.com/"
+        }
+      ]
+    }
+}  

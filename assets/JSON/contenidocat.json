@@ -1,0 +1,126 @@
+{
+    "menu": [{
+        "titulo": "Martí Corbalan",
+        "texto1": "Inici",
+        "texto2": "Hard Skills",
+        "texto3": "Soft Skills",
+        "texto4": "Educació",
+        "texto5": "Contacte"
+      }],
+    "flags": [
+        {
+            "src": "img/bandera.png",
+            "alt": "Bandera"
+        },
+        {
+            "src": "img/espana.png",
+            "alt": "España"
+        },
+        {
+            "src": "img/reino-unido.png",
+            "alt": "Regne Unit"
+        }
+    ],
+    "about_me": [{
+        "titulo": "Sobre mi",
+        "contenido": "Professional capacitat per desenvolupar, implementar, documentar i mantenir aplicacions informàtiques multiplataforma. Entre les meves qualitats transversals, destaco la serietat, responsabilitat, proactivitat, treball en equip, iniciativa per afrontar nous reptes, capacitat comunicativa i autonomia en les tasques assignades.",
+        "contacto": "Contacte",
+        "info":{
+            "telefono": "602046890",
+            "direccion": "Mataró, Barcelona",
+            "email": "martilluc01@gmail.com",
+            "linkedin": "Martí Corbalan Cruz",
+            "github": "GitHub"
+    },
+        "idiomas": [
+            {
+            "texto": "Català - Natiu"
+            },
+            {
+            "texto": "Castellà - Natiu"
+            },
+            {
+            "texto": "Anglès - Intermig"
+            }
+
+        ],
+        "cv_enlace": "pdf/CVMARTÍCORBALAN.pdf"
+    }],
+    "aptitudes_tecnicas": [{
+        "titulo": "Hard Skills",
+        "skills1": "Software",
+        "skills2": "Hardware",
+        "skills3": "Wordpress",
+        "skills4": "HTML",
+        "skills5": "CSS",
+        "skills6": "React",
+        "skills8": "PHP",
+        "skills9": "Tailwind",
+        "skills10": "Python",
+        "SoftTitol": "Soft Skills",
+        "soft1":"Treballar en equip",
+        "soft2":"Proactiu",
+        "soft3":"Capacitat comunicativa",
+        "soft4":"Iniciativa"
+    }],
+    "experiencia_laboral": [{
+        "titulo": "Experiència Laboral",
+        "nombre1": "Tècnic informàtic",
+        "lugar_fecha1": "Megastore Datasystem (2017-2018) ",
+        "descripcion1": "- Suport tant en maquinari com en programari",
+        "descripcion2":  "- Instal·lació, manteniment i reparació ",
+        "descripcion2b":  "d'ordinadors i impressores...",
+        "descripcion3":  "- Atenció al client, helpdesk",
+        "nombre2":"Desenvolupador Web",
+        "lugar_fecha2": "2017-2023",
+        "descripcion4": "- La Volta Mataró",
+        "descripcion5": "- Dea Essence ",
+        "descripcion6":  "- Saed.cat",
+        "descripcion7":  "- TecnoTrade Group",
+        "nombre3":"Extreme Micro",
+        "lugar_fecha3": "2021",
+        "descripcion8": "- Desenvolupament Web",
+        "descripcion9": "- ERP Odoo",
+        "descripcion10":  "- Wordpress"
+    }],
+    "educacion": [{
+        "titulo": "Educació",
+        "experiencia1": "Grau superior de Desenvolupament d'aplicacions Multiplataforma",
+        "lugar_fecha4": "2019-2021",
+        "experiencia2": "Grau mig de Sistemes microinformàtics i xarxes",
+        "lugar_fecha5": "2017-2019"    
+    }],
+    "carrusel":[{
+        "titulo": "Blog Cafè",
+        "subtitulo1": "Projecte de venda de Cafè",
+        "lenCarrusel": "HTML",
+        "lenCarrusel2": "CSS",
+        "lenCarrusel3": "JavaScript",
+        "lenCarrusel4": "HTML",
+        "lenCarrusel5": "CSS",
+        "lenCarrusel6": "JavaScript",
+        "lenCarrusel7": "HTML",
+        "lenCarrusel8": "CSS",
+        "lenCarrusel9": "JavaScript",
+        "titulo2": "Festival de música",
+        "subtitulo2": "Projecte d'un festival de música",
+        "titulo3": "Calculadora",
+        "subtitulo3": "Projecte d'una calculadora"
+    }],
+    "contacto": {
+        "redes_sociales": [
+            {
+                "nombre": "Instagram",
+                "enlace": "https://www.instagram.com/"
+            },
+            {
+                "nombre": "LinkedIn",
+                "enlace": "https://www.linkedin.com/"
+            },
+            {
+                "nombre": "GitHub",
+                "enlace": "https://github.com/"
+            }
+        ]
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "menu": {
+      "titulo": "Martí Corbalan",
+      "items": [
+        {
+          "texto": "Inicio",
+          "enlace": "#"
+        },
+        {
+          "texto": "Hard Skills",
+          "enlace": "#"
+        },
+        {
+          "texto": "Soft Skills",
+          "enlace": "#"
+        },
+        {
+          "texto": "Contacto",
+          "enlace": "#contacto"
+        }
+      ]
+    },
+    "about_me": {
+      "titulo": "Sobre mi",
+      "contenido": "Professional capacitat per desenvolupar, implantar, documentar i mantenir aplicacions informàtiques multiplataforma. Entre les meves qualitats transversals, destaco la serietat, responsabilitat, proactivitat, treball en equip, iniciativa per afrontar nous reptes, capacitat comunicativa i autonomia en les tasques assignades.",
+      "contacto": {
+        "telefono": "602046890",
+        "direccion": "Mataró, Barcelona",
+        "email": "martilluc01@gmail.com",
+        "linkedin": "Martí Corbalan Cruz",
+        "github": "GitHub"
+      },
+      "idiomas": [
+        "Català - natiu",
+        "Castellà - natiu",
+        "Anglès - mig"
+      ],
+      "cv_enlace": "pdf/CVMARTÍCORBALAN.pdf"
+    },
+    "aptitudes_tecnicas": {
+      "titulo": "Aptitudes Tècniques",
+      "skills": [
+        ["Software", "Hardware", "Wordpress"],
+        ["HTML", "CSS", "React"],
+        ["Figma", "PHP", "Tailwind"]
+      ]
+    },
+    "experiencia_laboral": {
+      "titulo": "Experiència Laboral",
+      "experiencias": [
+        {
+          "nombre": "Que he fet",
+          "lugar_fecha": "On he fet i data",
+          "descripcion": [
+            "Suport tant en Hardware com en Software",
+            "Instal·lació, manteniment i reparació d'ordinadors i impresores...",
+            "Atenció al client, helpdesk"
+          ]
+        },
+        {
+          "nombre": "Que he fet",
+          "lugar_fecha": "On he fet i data",
+          "descripcion": [
+            "La Volta Mataró (link)",
+            "Dea Essence (link)",
+            "Saed.cat",
+            "TecnoTrade Group"
+          ]
+        },
+        {
+          "nombre": "Que he fet",
+          "lugar_fecha": "On he fet i data",
+          "descripcion": [
+            "Desenvolupament Web",
+            "ERP Odoo",
+            "Wordpress"
+          ]
+        },
+        {
+          "nombre": "Que he fet",
+          "lugar_fecha": "On he fet i data",
+          "descripcion": [
+            "Suport tant en Hardware com en Software",
+            "Instal·lació, manteniment i reparació d'ordinadors etc.",
+            "Wordpress"
+          ]
+        }
+      ]
+    },
+    "educacion": {
+      "titulo": "Educació",
+      "experiencias": [
+        {
+          "nombre": "Que he fet",
+          "lugar_fecha": "On he fet i data",
+          "descripcion": [
+            "Suport tant en Hardware com en Software",
+            "Instal·lació, manteniment i reparació d'ordinadors i impresores...",
+            "Atenció al client, helpdesk"
+          ]
+        },
+        {
+          "nombre": "Que he fet",
+          "lugar_fecha": "On he fet i data",
+          "descripcion": [
+            "La Volta Mataró (link)",
+            "Dea Essence (link)",
+            "Saed.cat",
+            "TecnoTrade Group"
+          ]
+        },
+        {
+          "nombre": "Que he fet",
+          "lugar_fecha": "On he fet i data",
+          "descripcion": [
+            "Desenvolupament Web",
+            "ERP Odoo",
+            "Wordpress"
+          ]
+        },
+        {
+          "nombre": "Que he fet",
+          "lugar_fecha": "On he fet i data",
+          "descripcion": [
+            "Suport tant en Hardware com en Software",
+            "Instal·lació, manteniment i reparació d'ordinadors etc.",
+            "Wordpress"
+          ]
+        }
+      ]
+    },
+    "contacto": {
+      "redes_sociales": [
+        {
+          "nombre": "Instagram",
+          "enlace": "https://www.instagram.com/"
+        },
+        {
+          "nombre": "LinkedIn",
+          "enlace": "https://www.linkedin.com/"
+        },
+        {
+          "nombre": "GitHub",
+          "enlace": "https://github.com/"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,126 @@
+{
+    "menu": [{
+        "titulo": "Martí Corbalan",
+        "texto1": "Home",
+        "texto2": "Hard Skills",
+        "texto3": "Soft Skills",
+        "texto4": "Education",
+        "texto5": "Contact"
+      }],
+  "flags": [
+      {
+          "src": "img/bandera.png",
+          "alt": "Flag"
+      },
+      {
+          "src": "img/espana.png",
+          "alt": "Spain"
+      },
+      {
+          "src": "img/reino-unido.png",
+          "alt": "United Kingdom"
+      }
+  ],
+  "about_me": [{
+      "titulo": "About me",
+      "contenido": "Professional trained to develop, implement, document and maintain multiplatform computer applications. Among my cross-cutting qualities, I stand out for seriousness, responsibility, proactivity, teamwork, initiative to face new challenges, communicative skills, and autonomy in assigned tasks.",
+      "contacto": "Contact",
+      "info":{
+          "telefono": "602046890",
+          "direccion": "Mataró, Barcelona",
+          "email": "martilluc01@gmail.com",
+          "linkedin": "Martí Corbalan Cruz",
+          "github": "GitHub"
+      },
+      "idiomas": [
+          {
+          "texto": "Catalan - Native"
+          },
+          {
+          "texto": "Spanish - Native"
+          },
+          {
+          "texto": "English - Intermediate"
+          }
+
+      ],
+      "cv_enlace": "pdf/CVMARTÍCORBALAN.pdf"
+  }],
+  "aptitudes_tecnicas": [{
+      "titulo": "Hard Skills",
+      "skills1": "Software",
+      "skills2": "Hardware",
+      "skills3": "Wordpress",
+      "skills4": "HTML",
+      "skills5": "CSS",
+      "skills6": "React",
+      "skills8": "PHP",
+      "skills9": "Tailwind",
+      "skills10": "Python",
+      "SoftTitol": "Soft Skills",
+      "soft1":"Working in a team",
+      "soft2":"Proactive",
+      "soft3":"Communicative skills",
+      "soft4":"Initiative"
+  }],
+  "experiencia_laboral": [{
+      "titulo": "Work Experience",
+      "nombre1": "Computer Technician",
+      "lugar_fecha1": "Megastore Datasystem (2017-2018) ",
+      "descripcion1": "- Support for both hardware and software",
+      "descripcion2":  "- Installation, maintenance, and repair ",
+      "descripcion2b":  "of computers and printers...",
+      "descripcion3":  "- Customer service, helpdesk",
+      "nombre2":"Web Developer",
+      "lugar_fecha2": "2017-2023",
+      "descripcion4": "- La Volta Mataró",
+      "descripcion5": "- Dea Essence ",
+      "descripcion6":  "- Saed.cat",
+      "descripcion7":  "- TecnoTrade Group",
+      "nombre3":"Extreme Micro",
+      "lugar_fecha3": "2021",
+      "descripcion8": "- Web Development",
+      "descripcion9": "- ERP Odoo",
+      "descripcion10":  "- Wordpress"
+  }],
+  "educacion": [{
+      "titulo": "Education",
+      "experiencia1": "Higher Degree in Multiplatform Application Development",
+      "lugar_fecha4": "2019-2021",
+      "experiencia2": "Intermediate Degree in Microcomputer Systems and Networks",
+      "lugar_fecha5": "2017-2019"    
+  }],
+  "carrusel":[{
+      "titulo": "Coffee Blog",
+      "subtitulo1": "Coffee Sales Project",
+      "lenCarrusel": "HTML",
+      "lenCarrusel2": "CSS",
+      "lenCarrusel3": "JavaScript",
+      "lenCarrusel4": "HTML",
+      "lenCarrusel5": "CSS",
+      "lenCarrusel6": "JavaScript",
+      "lenCarrusel7": "HTML",
+      "lenCarrusel8": "CSS",
+      "lenCarrusel9": "JavaScript",
+      "titulo2": "Music Festival",
+      "subtitulo2": "Music Festival Project",
+      "titulo3": "Calculator",
+      "subtitulo3": "Calculator Project"
+  }],
+  "contacto": {
+      "redes_sociales": [
+          {
+              "nombre": "Instagram",
+              "enlace": "https://www.instagram.com/"
+          },
+          {
+              "nombre": "LinkedIn",
+              "enlace": "https://www.linkedin.com/"
+          },
+          {
+              "nombre": "GitHub",
+              "enlace": "https://github.com/"
+          }
+      ]
+  }
+}
