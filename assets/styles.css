@@ -1000,7 +1000,7 @@ footer {
     flex-direction: column; 
     align-items: center; 
     width: fit-content;
-    
+    max-width: 400px;
   }
   .about-info{
     display: flex;
