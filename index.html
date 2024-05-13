@@ -7,7 +7,27 @@
     <title>Mi CV Web</title>
     <meta name="description" content="CV">
     <meta name="keywords" content="CV, WebCV">
+    
+    <!-- METADATA FOR SEARCH ENGINES -->
+    <meta name="description" content="Martí Corbalan, Web Developer/programer Junior">
+    <meta name="keywords" content="Martí Corbalan Web Developer/programer">
     <meta name="autor" content="Martí">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 days">
+    <meta name="language" content="English">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+
+    <!-- OPEN GRAPH PROTOCOL -->
+    <meta property="og:title" content="Martí Corbalan">
+    <meta property="og:description" content="Martí Corbalan, Web Developer/programer Junior">
+    <meta property="og:image" content="./assets/img/foto-face">
+    <meta property="og:url" content="http://cosmic3d.github.io/jesusnavarro/">
+    <meta property="og:site_name" content="Martí Corbalan">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+
     <title>Menu y Skills Responsive</title>
     <link rel="stylesheet" href="./assets/styles.css">
 
@@ -17,40 +37,41 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="icon" href="./img/favicon.png" type="image/x-icon">
 
-    
-<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 
 
     <style>
         .swiper {
-      width: 100%;
-      height: 100%;
-    }
+            width: 100%;
+            height: 100%;
+        }
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .swiper-slide p{
-        font-size: 40px;
-    }
-    .swiper {
-      margin-left: auto;
-      margin-right: auto;
-    }
-        
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper-slide p {
+            font-size: 40px;
+        }
+
+        .swiper {
+            margin-left: auto;
+            margin-right: auto;
+        }
     </style>
 
 </head>
@@ -58,29 +79,36 @@
 <body>
 
 
-    <!-- pagina externa principal dar bienvenida -->
-    <header>
+    <!-- Aquí tenemos el header, con un menú y un switch para cambiar el modo de la web -->
+    <header id="home">
         <div class="title ">
-            <h1 class="">Martí­ Corbalan</h1>
+            <img src="./img/logo.png" alt="logo" class="logo">
+            <!-- <h1 class="">Martí­ Corbalan</h1> -->
         </div>
         <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
         <div id="menu-general">
             <nav class="nav " id="nav">
                 <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
                 <ul class="nav-list" id="lista-menu">
-                   <li ><a href="" id="inicio"></a></li>
-                   <li ><a href="HARD" id="hardSkills"></a></li>
-                   <li ><a href="" id="SoftSkills"></a></li>
-                   <li ><a href="" id="Educacion"></a></li>
-                   <li ><a href="" id="Contacto"></a></li>
+                    <li><a href="" id="inicio"></a></li>
+                    <li><a href="#HARD" id="hardSkills"></a></li>
+                    <li><a href="#EDUCACION" id="SoftSkills"></a></li>
+                    <li><a href="#PROYECTOS" id="Educacion"></a></li>
+                    <li><a href="#CONTACTO" id="Contacto"></a></li>
+                    <div class="idiomas2" >
+                        <button onclick="json_cat()"><img src="./img/bandera.png" alt=""></button>
+                        <button onclick="json_cast()"><img src="./img/espana.png" alt=""></button>
+                        <button onclick="json_en()"><img src="./img/reino-unido.png" alt=""></button>
+                    </div>
                 </ul>
-
+                
             </nav>
             <div class="idiomas" id="idiomas">
                 <button onclick="json_cat()"><img src="./img/bandera.png" alt=""></button>
                 <button onclick="json_cast()"><img src="./img/espana.png" alt=""></button>
                 <button onclick="json_en()"><img src="./img/reino-unido.png" alt=""></button>
             </div>
+            
             <div id="switch-container">
                 <label class="switch">
                     <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -101,48 +129,64 @@
                 </label>
             </div>
         </div>
-
     </header>
 
-    <!-- ABOUT ME -->
-    <section class="container ">
+    <!-- En esta sección tenemos un poco sobre mi mas una foto -->
+    <section class="container " >
         <div class="section">
-            
+
             <div class="info">
                 <div class="about-section ">
                     <h2 id="about-me"></h2>
-                    
+
                     <div class="informacion" id="aboutMe">
-                       <p id="contenido"></p>
-                       
-                    </div>  
+                        <p id="contenido"></p>
+
+                    </div>
                     <div class="about-idiomas" id="aboutIdiomas">
-                        
-                        
+
+
                     </div>
                     <div>
-                        <button class="download-button">
+                       
+                        <button class="download-button "  >
                             <div class="docs">
-                                <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="20" width="20" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line y2="13" x2="8" y1="13" x1="16"></line><line y2="17" x2="8" y1="17" x1="16"></line><polyline points="10 9 9 9 8 9"></polyline></svg> 
+                                <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none"
+                                    stroke-width="2" stroke="currentColor" height="20" width="20" viewBox="0 0 24 24">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                    <line y2="13" x2="8" y1="13" x1="16"></line>
+                                    <line y2="17" x2="8" y1="17" x1="16"></line>
+                                    <polyline points="10 9 9 9 8 9"></polyline>
+                                </svg>
                                 CV
                             </div>
-                            <div dowload class="download" href="./assets/pdf/CV_Martí.pdf">
-                              <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="24" width="24" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line y2="3" x2="12" y1="15" x1="12"></line></svg>
+                            <a href="./assets/pdf/CV_Martí.pdf" dowload>
+                            <div  class="download" >
+                                <svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none"
+                                    stroke-width="2" stroke="currentColor" height="24" width="24" viewBox="0 0 24 24">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line y2="3" x2="12" y1="15" x1="12"></line>
+                                </svg>
                             </div>
+                            </a>
                         </button>
+                        
+                        
                     </div>
-                    
+
                 </div>
-                <div class="perfil" >
-                   <img src="./img/foto-face.png" alt="">
-                   
-                </div>   
+                <div class="perfil">
+                    <img src="./img/foto-face.png" alt="">
+
+                </div>
             </div>
         </div>
     </section>
 
- 
-    <!-- APTITUDES TÃ‰CNICAS -->
+
+    <!-- En esta sección tenemos mis aptitudes técnicas -->
 
     <section class="container" id="HARD">
         <div class="section2">
@@ -154,52 +198,52 @@
                     <div class="skills-hard">
                         <div class="title_center">
                             <div class="bordes">
-                                 <h2 id="hardSkill"></h2>
+                                <h2 id="hardSkill"></h2>
                             </div>
-                           
+
                         </div>
                         <div class="hard-items ">
                             <div class="hard-skill skill_item">
                                 <img src="./img/software.png" alt="">
                                 <p id="Software"></p>
-                               
+
                             </div>
                             <div class="hard-skill skill_item">
                                 <img src="./img/hardware2.png" alt="">
                                 <p id="Hardware"></p>
                             </div>
-                            <div class="hard-skill skill_item" >
+                            <div class="hard-skill skill_item">
                                 <img src="./img/wordpress.png" alt="">
                                 <p id="Wordpress"></p>
                             </div>
-                            <div class="hard-skill skill_item" >
+                            <div class="hard-skill skill_item">
                                 <img src="./img/html.png" alt="">
                                 <p id="html"></p>
                             </div>
-                            <div class="hard-skill skill_item" >
+                            <div class="hard-skill skill_item">
                                 <img src="./img/css.png" alt="">
                                 <p id="css"></p>
                             </div>
-                            <div class="hard-skill skill_item" >
+                            <div class="hard-skill skill_item">
                                 <img src="./img/react.png" alt="" class="img_react">
                                 <p id="react"></p>
                             </div>
-                            <div class="hard-skill skill_item" >
+                            <div class="hard-skill skill_item">
                                 <img src="./img/php.png" alt="">
                                 <p id="php"></p>
                             </div>
-                            <div class="hard-skill skill_item" >
+                            <div class="hard-skill skill_item">
                                 <img src="./img/tailwind.png" alt="" class="img_tailwind">
                                 <p id="tailwind"></p>
                             </div>
-                            <div class="hard-skill skill_item" >
+                            <div class="hard-skill skill_item">
                                 <img src="./img/python.png" alt="" class="img_tailwind">
                                 <p id="python"></p>
                             </div>
                         </div>
                     </div>
-                    <div class="skills-soft">
-                        
+                    <div class="skills-soft" id="SOFT">
+
                         <div class="soft-items">
                             <div class="soft-skill skill_item_soft">
                                 <img src="./img/trabajo-en-equipo.png" alt="">
@@ -209,11 +253,11 @@
                                 <img src="./img/proactivo.png" alt="">
                                 <p id="soft2"></p>
                             </div>
-                            <div class="soft-skill skill_item_soft" >
+                            <div class="soft-skill skill_item_soft">
                                 <img src="./img/comunicativo.png" alt="">
                                 <p id="soft3"></p>
                             </div>
-                            <div class="soft-skill skill_item_soft" >
+                            <div class="soft-skill skill_item_soft">
                                 <img src="./img/iniciativa.png" alt="">
                                 <p id="soft4"></p>
                             </div>
@@ -222,7 +266,7 @@
                             <div class="bordes2">
                                 <h2 id="soft"></h2>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -230,41 +274,41 @@
         </div>
     </section>
 
-    <!-- EXPERIÃˆNCIA LABORAL -->
-    <section class="container ">
+    <!-- En esta sección tenemos mi vida laboral -->
+    <section class="container " id="EDUCACION">
         <div class="section2 ">
-           
-                <div class="bordes3">
-                    <h2 id="expTitol"></h2>
+
+            <div class="bordes3">
+                <h2 id="expTitol"></h2>
+            </div>
+
+
+            <div class="experiencia">
+                <div class="experiencia-item">
+                    <h3 id="nombre1"></h3>
+                    <h4 id="lugar_fecha1"></h4>
+                    <p id="descripcion1"></p>
+                    <p id="descripcion2"></p>
+                    <p id="descripcion2b"></p>
+                    <p id="descripcion3"></p>
                 </div>
-                
-            
-                <div class="experiencia">
-                    <div class="experiencia-item">
-                        <h3 id="nombre1"></h3>
-                        <h4 id="lugar_fecha1"></h4>
-                        <p id="descripcion1"></p>
-                        <p id="descripcion2"></p>
-                        <p id="descripcion2b"></p>
-                        <p id="descripcion3"></p>
-                    </div>
-                    <div class="experiencia-item">
-                        <h3 id="nombre2"></h3>
-                        <h4 id="lugar_fecha2"></h4>
-                        <p id="descripcion4"></p>
-                        <p id="descripcion5"></p>
-                        <p id="descripcion6"></p>
-                        <p id="descripcion7"></p>
-                    </div>
-                    <div class="experiencia-item">
-                        <h3 id="nombre3"></h3>
-                        <h4 id="lugar_fecha3"></h4>
-                        <p id="descripcion8"></p>
-                        <p id="descripcion9"></p>
-                        <p id="descripcion10"></p>
-                    </div>
+                <div class="experiencia-item">
+                    <h3 id="nombre2"></h3>
+                    <h4 id="lugar_fecha2"></h4>
+                    <p id="descripcion4"></p>
+                    <p id="descripcion5"></p>
+                    <p id="descripcion6"></p>
+                    <p id="descripcion7"></p>
                 </div>
-                
+                <div class="experiencia-item">
+                    <h3 id="nombre3"></h3>
+                    <h4 id="lugar_fecha3"></h4>
+                    <p id="descripcion8"></p>
+                    <p id="descripcion9"></p>
+                    <p id="descripcion10"></p>
+                </div>
+            </div>
+
             <div class="bordes4">
 
             </div>
@@ -272,13 +316,13 @@
     </section>
 
 
-    <!-- EDUCACIÃ“ -->
-    <section class="container ">
+    <!-- En esta sección tenemos mis estudios -->
+    <section class="container " >
         <div class="section2 ">
             <div class="bordes3">
                 <h2 id="tituloExp"></h2>
             </div>
-            
+
             <div class="experiencia2">
                 <ul class="experiencia-item">
                     <li>
@@ -287,7 +331,7 @@
                     </li>
                 </ul>
                 <ul class="experiencia-item">
-                    
+
                     <li>
                         <h3 id="experiencia1"></h3>
                         <h4 id="lugar_fecha4"></h4>
@@ -301,41 +345,49 @@
     </section>
     <!-- CONTACTO -->
 
-   <!-- CARRUSEL -->
-   <section>
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <a href=""><p id="cafetitle"></p></a>
-                <a href="https://blog-cafe-marti.netlify.app/"><img src="./img/cafe2.png" alt=""></a>
+    <!-- En esta sección tenemos un carrusel con mis proyectos mas destacados, con una imagen que te lleva s su sitio respectivo -->
+    <section id="PROYECTOS">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="">
+                        <p id="cafetitle"></p>
+                    </a>
+                    <a href="https://blog-cafe-marti.netlify.app/"><img src="./img/cafe2.png" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <p id="titulo2"></p>
+                    </a>
+                    <a href="https://festival-musica-corba.netlify.app/"><img src="./img/musica2.png" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <p id="titulo3"></p>
+                    </a>
+                    <a href="https://marti_calculadorajs.surge.sh/"><img src="./img/calculadora.png" alt="calculadora"
+                            class="calc"></a>
+                </div>
             </div>
-            <div class="swiper-slide">
-                <a href=""><p id="titulo2"></p></a>
-                <a href="https://festival-musica-corba.netlify.app/"><img src="./img/musica2.png" alt=""></a>
-            </div>
-            <div class="swiper-slide">
-                <a href=""><p id="titulo3"></p></a>
-                <a href="https://marti_calculadorajs.surge.sh/"><img src="./img/calculadora.png" alt="calculadora" class="calc"></a>
-            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- <div class="swiper-pagination"></div> -->
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <!-- <div class="swiper-pagination"></div> -->
-    </div>
-</section>
-   
+    </section>
+
+    <!-- En este sección tenemos el footer, donde hay un formulario de contacto, mis redes sociales y como contactarme  -->
     <footer>
-       
         <div class="footer">
             <div class="form-card1">
                 <div class="form-card2">
-                    <form class="form" method="post" action="https://formcarry.com/s/fAyBVOVeZKH"  enctype="multipart/form-data">
+                    <form class="form" method="post" action="https://formcarry.com/s/fAyBVOVeZKH"
+                        enctype="multipart/form-data">
                         <p class="form-heading" id="contacto">Contacte</p>
 
                         <div class="form-field">
                             <input required="" id="name" placeholder="Nombre" class="input-field" type="text" />
                         </div>
-                            
+
                         <div class="form-field">
                             <input required="" id="email" placeholder="Email" class="input-field" type="email" />
                         </div>
@@ -363,23 +415,21 @@
                     </a>
                     <a href="https://github.com/MartiCorbalan/" target="_blank">
                         <img src="./img/github.png" alt="GitHub">
-                        <span>GitHub</span>  
-                    </a> 
+                        <span>GitHub</span>
+                    </a>
                     <a href="">
                         <div class="tooltip-mario-container">
                             <div class="box"></div>
                             <div class="mush"></div>
                         </div>
-                    </a>                 
+                    </a>
                 </div>
             </div>
-           
-           
 
             <div class="made-by">
                 <div class="about-inv">
-                    <div class="info-title" >
-                       <h2 id="aboutMe2"></h2>
+                    <div class="info-title">
+                        <h2 id="aboutMe2"></h2>
                     </div>
 
                     <div class="about-info">
@@ -388,45 +438,52 @@
                             <li><i class="bi bi-telephone-fill"></i>&nbsp;602046890</li>
                             <li><i class="bi bi-geo-alt-fill"></i>&nbsp;Mataró, Barcelona</li>
                             <li><i class="bi bi-envelope"></i>&nbsp;
-                                <a href="mailto:martilluc01@gmail.com" class="mail">martilluc01@gmail.com</a> </li>
+                                <a href="mailto:martilluc01@gmail.com" class="mail">martilluc01@gmail.com</a>
+                            </li>
                             <li><i class="bi bi-linkedin"></i>&nbsp;Martí­ Corbalan Cruz</li>
                             <li><i class="bi bi-github"></i>&nbsp;GitHub</li>
                         </ul>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="fixed-image">
+            <a href="#home">
+                <img src="./img/flecha-arriba.png" alt="">
+            </a>
+            
+        </div>
     </footer>
 
-<section>
-    <div class="copyright">
-        <p><small>&copy; made by Martí­ Corbalan / <span id="data">2024</span></small></p>
-    </div>
-</section>
+    <section>
+        <div class="copyright">
+            <p><small>&copy; made by Martí­ Corbalan / <span id="data">2024</span></small></p>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./assets/JS/info.js"></script>
     <script src="./assets/JS/data.js"></script>
     <script src="./assets/JS/script.js"></script>
-    
+
     <script src="./assets/JS/light-dark.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
-   
+
 
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
     </script>
 
 

@@ -2,9 +2,9 @@
     "menu": [{
         "titulo": "Martí Corbalan",
         "texto1": "Home",
-        "texto2": "Hard Skills",
-        "texto3": "Soft Skills",
-        "texto4": "Education",
+        "texto2": "Hard/Soft Skills",
+        "texto3": "Education",
+        "texto4": "Projects",
         "texto5": "Contact"
       }],
   "flags": [
